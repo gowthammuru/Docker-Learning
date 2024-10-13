@@ -1,12 +1,14 @@
 1.Login in to Dockerhub:
 
-![](media/image1.png){width="6.268055555555556in" height="1.1625in"}
+![dockerhub login](https://github.com/user-attachments/assets/a2347750-af25-41c4-ba03-0c65c8b8f36c)
+
 
 Docker hub is a repository to save Docker images.
 
 2.First Docker File:
 
-![](media/image2.png){width="6.268055555555556in" height="3.71875in"}
+![Docker file](https://github.com/user-attachments/assets/a9c6157e-437c-4b4b-8c50-9ec5accd8699)
+
 
 The above docker file will help to create a container with ubuntu as
 base image, /app as working directory and install python in that image.
@@ -14,30 +16,30 @@ base image, /app as working directory and install python in that image.
 3.Creating a docker image by executing command "docker build -t
 gowthamravic/my-first-docker-file ." (-t means TAG)
 
-![](media/image3.png){width="6.268055555555556in"
-height="3.2402777777777776in"}
+![docker build](https://github.com/user-attachments/assets/c7149f52-95e5-4372-a20a-f48cd637d0ea)
+
 
 4.Listing available docker images by executing command "docker images"
 
-![](media/image4.png){width="6.268055555555556in"
-height="0.9722222222222222in"}
+![image](https://github.com/user-attachments/assets/00f59d71-31ee-4ecd-bbf9-0b25d92a40ec)
+
 
 5.Running the above created docker container by executing command
 "docker run gowthamravic/my-first-docker-image"
 
-![](media/image5.png){width="6.268055555555556in"
-height="0.7486111111111111in"}
+![docker build](https://github.com/user-attachments/assets/b55b5971-0fe1-4e24-a71f-fdd3ebf43a40)
+
 
 6.Pushing the above created container image to dockerhub repo by
 executing command "docker push gowthamravic/my-first-docker-image"
 
-![](media/image6.png){width="6.268055555555556in"
-height="1.198611111111111in"}
+![docker push](https://github.com/user-attachments/assets/9289a11a-9e27-4a20-b3f9-4481ee46b8d9)
+
 
 7.Docker hub Repo:
 
-![](media/image7.png){width="6.268055555555556in"
-height="3.388888888888889in"}
+![dockerhub](https://github.com/user-attachments/assets/4362eca7-9e68-450e-b30f-151550fb304d)
+
 
 Link:
 https://hub.docker.com/repository/docker/gowthamravic/my-first-docker-image/general

@@ -6,19 +6,17 @@ run this application from requirements.txt.
 2.Created a docker file to create a docker image with ubuntu as base
 image and to install required dependencies like python, Django, tzdata.
 
-![](media/image1.png){width="6.268055555555556in"
-height="3.720833333333333in"}
+![docker new file](https://github.com/user-attachments/assets/dccc06c4-f6a7-4bfb-9898-680e86a46076)
+
 
 Note: Got a error while trying to run the below docker file:
+![Docker file](https://github.com/user-attachments/assets/eecc9f79-519b-46d0-acdd-6f29a9652c5e)
 
-![](media/image2.png){width="6.268055555555556in"
-height="3.609722222222222in"}
-
-The error occurs because you\'re trying to install Python packages
+The error occurs because you're trying to install Python packages
 globally in an environment that is externally managed, as mentioned by
 the error message.
 
-3\. Difference between Entry point and CMD:
+3. Difference between Entry point and CMD:
 
 Commands given in Entry point are unchangeable whereas we can change the
 commands given in CMD
@@ -27,36 +25,35 @@ commands given in CMD
 dependencies by executing "docker build -t
 gowthamravic/django-python-app ."
 
-![](media/image3.png){width="6.268055555555556in"
-height="3.127083333333333in"}
+![docker build new](https://github.com/user-attachments/assets/d7cefe89-e4c8-4d37-bfef-95ba25f731f0)
+
 
 6.Listing the available docker images by executing "docker images"
 command:
 
-![](media/image4.png){width="6.268055555555556in"
-height="0.6243055555555556in"}
+![docker images](https://github.com/user-attachments/assets/f6704628-86df-43e4-89ce-a22d1c8105ea)
 
 7.Executing the above created container and mapping the container's port
 8000 with the host(192.168.29.47) port 8000 by executing command "docker
 run -p 8000:8000 -it 'docker id':
 
-![](media/image1.png){width="6.268055555555556in"
-height="3.720833333333333in"}
+![docker run](https://github.com/user-attachments/assets/648c42f9-987f-40f3-90d4-c98bf8016502)
+
 
 8.Trying to access the web-application from browser:
+![result](https://github.com/user-attachments/assets/1e14d0da-8cba-4ff8-8555-470d0aad744c)
 
-![](media/image5.png){width="6.268055555555556in"
-height="3.5229166666666667in"}
+
 
 9.Pushing the docker container image to dockerhub repo by executing
 command "docker push container name"
 
-![](media/image6.png){width="6.268055555555556in"
-height="1.4409722222222223in"}
+![docker push](https://github.com/user-attachments/assets/e686e3de-96e7-42fb-90f9-18219d7710b4)
+
 
 10.Docker Hub:
 
-![](media/image7.png){width="6.268055555555556in"
-height="3.3944444444444444in"}
+![docker hub](https://github.com/user-attachments/assets/e79a1250-acac-4461-924d-b34ad141cd80)
+
 
 https://hub.docker.com/repository/docker/gowthamravic/django-phython-app/general

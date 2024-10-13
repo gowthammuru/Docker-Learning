@@ -63,8 +63,8 @@ docker-buildx-plugin docker-compose-plugin
 
 Execute docker run hello-world:
 
-![](media/image1.png){width="6.785755686789152in"
-height="2.834286964129484in"}
+![image](https://github.com/user-attachments/assets/e0e69aa5-9d6e-41b9-b340-0d82e197334f)
+
 
 **5.Difference between Virtualization and Containerization:**
 

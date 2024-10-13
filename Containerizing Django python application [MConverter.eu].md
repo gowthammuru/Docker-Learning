@@ -57,3 +57,14 @@ command "docker push container name"
 
 
 https://hub.docker.com/repository/docker/gowthamravic/django-phython-app/general
+
+11.Downloading the django container in another host machine by executing command "docker pull container-name" command:
+![image](https://github.com/user-attachments/assets/24e2ec3b-0c59-4598-a47d-339ba520e60a)
+
+12.Starting the container and port mapping with host using command "docker run -p 8000:8000 -it docker-id: command:
+![image](https://github.com/user-attachments/assets/751d8fb3-2f22-48e1-9b58-9fdf64d2d0f7)
+
+13.Result:
+![image](https://github.com/user-attachments/assets/b11a07e8-7f28-45e5-810d-a023fcde0bec)
+
+
